@@ -4,5 +4,6 @@
    *  Vertical Motion blur  
    *  Horizontal Motion blur  
    *  light  
-   *  Gaussian noise  
-
+   *  Gaussian noise
+## TOUSE  
+`git clone ` 
