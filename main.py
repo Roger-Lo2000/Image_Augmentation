@@ -17,7 +17,7 @@ args = parser.parse_args()
 
 image_list = []
 path = "./image"
-# os.makedirs("augmentation")
+os.makedirs("augmentation")
 
 def readfile(path):
     for pic in os.listdir(path):
@@ -71,9 +71,8 @@ def gaussian_noise_write(mean,variance):
             image_g = pic + noise * 255
             cv2.imwrite("./augmentation/gaussian_noise_aug/"+image,image_g)
             pbar.update(1)   
-# print(args.kernel_size)
+            
 readfile(path)
-
 horizontal_write(args.kernel_size)
 vertical_write(args.kernel_size)
 darker_write(args.alpha)
