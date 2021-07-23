@@ -5,9 +5,11 @@
    *  Horizontal Motion blur  
    *  light  
    *  Gaussian noise
-## TOUSE  
+## TO USE  
 `git clone https://github.com/Roger-Lo2000/Image_augmentation.git`  
   
 `python main.py`  
 or with arguments  
-`python main.py -k 11 -a 0.6 -m 0 -v 0.1`
+`python main.py -k 11 -a 0.6 -m 0 -v 0.1`  
+## TODO  
+Add more image proccess algorithm
