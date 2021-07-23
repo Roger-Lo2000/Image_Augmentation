@@ -8,7 +8,7 @@ import argparse
 
 parser = argparse.ArgumentParser()
 
-parser.add_argument("-k","--kernel_size",type=float,default = 9)
+parser.add_argument("-k","--kernel_size",type=int,default = 9)
 parser.add_argument("-a","--alpha",type=float,default = 0.6)
 parser.add_argument("-m","--mean",type=float,default = 0)
 parser.add_argument("-v","--variance",type=float,default = 0.1)
